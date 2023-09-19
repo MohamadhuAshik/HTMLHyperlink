@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <style>
+
+        .f1 {
+            padding: 20px;
+        }
+
+        .fg {
+            padding-bottom: 10px;
+        }
+
+        .fa label {
+            display: block;
+        }
+
+        .f1 label {
+            display: block;
+        }
+        .fm  label{
+            display: inline;
+        }
+    </style>
+    <form class="f1">
+        <div class="fg">
+            <label>First Name:</label>
+            <input type="text" placeholder="Type Your First Name">
+        </div><br>
+        <div class="fg">
+            <label>Last Name:</label>
+            <input type="text" placeholder="Type Your Last Name">
+        </div><br>
+        <div class="fg">
+            <label>Email:</label>
+            <input type="email" placeholder="Type Your Email Address">
+        </div><br>
+        <div class="fg">
+            <label>Password:</label>
+            <input type="password" placeholder="Type Your password">
+        </div><br>
+        <div class="fg">
+            <label>Phone Number:</label>
+            <input type="number" placeholder="Type Your Mobile Number">
+        </div><br>
+        <div class="fm">
+            <lable>
+                Gender:
+            </lable>
+            <label>
+                Male
+            </label><input type="radio">
+        
+        
+            <label>
+                Female
+            </label><input type="radio">
+        
+        
+            <lable>
+                Other
+            </lable><input type="radio">
+        </div>
+        <br>
+        <div class="fg">
+            <label>Language:</label>
+            <select id="Language">
+                <option value="select">Select Language</option>
+                <option value="tamil">Tamil</option>
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+                <option value="malayalam">Malayalam</option>
+                <option value="telugu">Telugu</option>
+                <option value="kannada">Kannada</option>
+            </select>
+        </div><br>
+        <div class="fg">
+            <label>Zip Code:</label>
+            <input type="number">
+        </div><br>
+        <div class="fa">
+            <label>About:</label>
+            <textarea rows="2" cols="20" placeholder="Write Something"></textarea>
+        </div><br>
+        <button style="font-size: 20px;">Submit</button>
+    </form>
+</body>
+
+</html>
